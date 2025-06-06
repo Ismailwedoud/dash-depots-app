@@ -9,7 +9,7 @@ import base64
 from flask import send_file
 
 # Charger les données
-df = pd.read_excel("D:/BEA/Contrôle de Gestion/Projet Analyse des agences/Base de données Dépôts 01-2024 au 04-2025 reduite.xlsx", sheet_name="Feuil2")
+df = pd.read_excel("Base de données Dépôts 01-2024 au 04-2025 reduite.xlsx", sheet_name="Feuil2")
 
 # Nettoyage
 df = df.dropna(subset=["Client", "Compte", "Types de Dépôts", "Année", "Mois", "Dépôts", "Désignation "])
