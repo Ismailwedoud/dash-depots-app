@@ -1,8 +1,8 @@
 # Principales libraries used in this application are : 
-pandas
 dash
+pandas
 plotly
-io
-locale
-base64
-flask
+openpyxl
+gunicorn
+
+
