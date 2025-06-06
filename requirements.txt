@@ -1,7 +1,7 @@
 # Principales libraries used in this application are : 
 pandas
 dash
-plotly.graph_objects
+plotly
 io
 locale
 base64
